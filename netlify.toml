@@ -1,7 +1,7 @@
 [build]
   functions = "./netlify/functions"  # Path to your serverless functions
   command = "echo 'No build command'"
-  publish = "build"  # Directory where your static files are located
+  publish = "public"  # Directory where your static files are located
   
 [build.environment]
   # Specify the Python version
