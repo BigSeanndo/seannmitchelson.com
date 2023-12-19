@@ -10,4 +10,4 @@
 [[redirects]]
   from = "/*"
   to = "/.netlify/functions/index"  # Assuming 'index' is your main function
-  status = 20
+  status = 200
