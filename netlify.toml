@@ -1,7 +1,13 @@
 [build]
+  functions = "./netlify/functions"  # Path to your serverless functions
   command = "echo 'No build command'"
   publish = "build"  # Directory where your static files are located
-
+  
 [build.environment]
   # Specify the Python version
   PYTHON_VERSION = "3.11"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/index"  # Assuming 'index' is your main function
+  status = 20
