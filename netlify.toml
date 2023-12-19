@@ -5,7 +5,7 @@
   
 [build.environment]
   # Specify the Python version
-  PYTHON_VERSION = "3.10"
+  PYTHON_VERSION = "3.8"
 
 [[redirects]]
   from = "/*"
