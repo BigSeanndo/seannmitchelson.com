@@ -1,0 +1,7 @@
+[build]
+  command = "echo 'No build command'"
+  publish = "build"  # Directory where your static files are located
+
+[build.environment]
+  # Specify the Python version
+  PYTHON_VERSION = "3.11"
